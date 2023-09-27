@@ -1,0 +1,11 @@
+#ifndef INCLUDED_SVSTATE
+#define INCLUDED_SVSTATE
+
+#define RECV_DEVID 1
+#define SEND_ORDER 2
+#define SEND_CLOSE 255
+#define RECV_METADATA 3
+#define FILE_RECV_START 4
+#define FILE_RECV_CONTINUE 5
+
+# endif

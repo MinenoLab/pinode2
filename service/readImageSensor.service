@@ -1,0 +1,11 @@
+[Unit]
+Description=Read Sensor and Shoot Camera app
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/local/bin/
+ExecStart=/usr/bin/python readImageSensor.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target

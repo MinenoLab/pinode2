@@ -1,0 +1,11 @@
+[Unit]
+Description=Priority Client Service
+
+[Service]
+ExecStart=/bin/bash /usr/local/bin/priority_client/src/start_priority_client.sh
+WorkingDirectory=/usr/local/bin/priority_client/src
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

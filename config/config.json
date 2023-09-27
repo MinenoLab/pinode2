@@ -1,0 +1,35 @@
+{
+	"DEVICE_ID" : "00",
+
+	"UPLOAD_FLG" : true,
+	"ALERT_FLG" : false,
+	"LOG_FLG" : false,
+
+	"DIR_ALL_DATA" : "/home/pinode/data",
+	"DIR_SEND_ALL_DATA" : "/home/pinode/send_data",
+
+	"DIR_LOG" :  "/var/log",
+	"DIR_LOG_OLD" : "/var/log/old",
+	"DIR_LOG_READSENSOR" : "/var/log/read_sensor",
+	"DIR_TMP" : "/tmp",
+
+	"DATA_OLD_LUX0" : "/var/log/old/lux0",
+	"DATA_OLD_LUX1" : "/var/log/old/lux1",
+	"DATA_OLD_TEMP" : "/var/log/old/temp",
+	"DATA_OLD_HUMI" : "/var/log/old/humi",
+	"DATA_OLD_STEM" : "/var/log/old/stem",
+	"DATA_OLD_FRUIT_DIAGRAM" : "/var/log/old/fruit_diagram",
+
+	"DATA_ERRCNT_LUX0" : "/var/log/old/lux0_e",
+	"DATA_ERRCNT_LUX1" : "/var/log/old/lux1_e",
+	"DATA_ERRCNT_TEMP" : "/var/log/old/temp_e",
+	"DATA_ERRCNT_HUMI" : "/var/log/old/humi_e",
+	"DATA_ERRCNT_STEM" : "/var/log/old/stem_e",
+	"DATA_ERRCNT_FRUIT_DIAGRAM" : "/var/log/old/fruit_diagram_e",
+
+	"DATA_REBOOT_LOG" : "/var/log/reboot.log",
+
+	"GPIOFILE_CONFIG_EXPORT" : "/sys/class/gpio/export",
+	"GPIOFILE_CONFIG_GPIO4_DIRECTION" : "/sys/class/gpio/gpio4/direction",
+	"GPIOFILE_CONFIG_GPIO4_VALUE" : "/sys/class/gpio/gpio4/value"
+}
