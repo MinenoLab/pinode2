@@ -104,10 +104,3 @@ cd ./sensorDriver
 make
 make install
 cd ../
-
-
-# 優先度通信設定
-cd lib/priority_client/src
-make client
-cd ../../../
-cp -r lib/priority_client /usr/local/bin/

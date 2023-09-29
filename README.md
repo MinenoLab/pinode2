@@ -23,18 +23,9 @@ Fig.1　Pinode2デバイス
 
 Raspberry Piへのインストール手順を以下に示します．研究室GitLabへアクセスできる環境で行ってください．
 ```
-$ git clone http://172.16.15.3/agri-analitics/pinode2.git
+$ git clone https://github.com/MinenoLab/pinode2.git
 $ cd pinode2
 
 $ sudo bash ./install.sh
 $ sudo reboot
 ```
-
-
-## Documentation
-ドキュメントは[Wiki](http://wiki.in.minelab/6424dfe4ddfbad9b17e6a32a)を参照してください．
-
-## Related projects
-* Pinode2 Server : [http://172.16.15.3/agri-analitics/datacollectioniotsystem_server](http://172.16.15.3/agri-analitics/datacollectioniotsystem_server)
-* Spresense Cam : [http://git.in.minelab/takuto/pinode2_spresense](http://git.in.minelab/takuto/pinode2_spresense)
-* Pinode2 Sensor Hat : [http://git.in.minelab/agri-analitics/pinode2_sensor_hat](http://git.in.minelab/agri-analitics/pinode2_sensor_hat)
